@@ -1,18 +1,17 @@
-# Olá, eu sou Marco Costa
+# Hi, I’m Marco Costa
 
-Estudante de Engenharia de Software  
-Iniciando minha trajetória em desenvolvimento back-end  
-Foco em Java, lógica e base técnica sólida
+Software Engineering student  
+Focused on back-end development with Java and Spring Boot  
+Hands-on experience with Linux and Networking  
 
-## Sobre mim
+## About me
 
-Sou estudante de Engenharia de Software e estou construindo minha base no desenvolvimento de sistemas.  
-Meu foco principal é Java e Programação Orientada a Objetos.
+I am a Software Engineering student building a strong foundation in back-end development.  
+My main focus is Java, object-oriented programming, and clean code practices.
 
-Tenho interesse em back-end, lógica de programação, boas práticas e fundamentos de infraestrutura.  
-Uso projetos práticos para consolidar conhecimento e evoluir tecnicamente.
+I am also developing skills in Linux and networking fundamentals, with interest in support, NOC, and infrastructure environments.
 
-## Como me encontrar
+## You can find me by clicking on the link below
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marco-ricardo-07177a2b6/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marcoricardo61b@gmail.com)
@@ -24,11 +23,10 @@ Uso projetos práticos para consolidar conhecimento e evoluir tecnicamente.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## O que estou estudando atualmente
+## Currently studying
 
-- Java e Spring Boot
-- Estrutura de APIs REST
-- Banco de dados e JPA
-- Linux para ambiente de desenvolvimento
-- Fundamentos de redes e troubleshooting
-</div>
+- Java and Spring Boot
+- RESTful APIs
+- JPA and relational databases
+- Linux for development environments
+- Networking fundamentals and troubleshooting
