@@ -21,7 +21,14 @@ I am also developing skills in Linux and networking fundamentals, with interest 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=coffeescript&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+## Projects
+### Helpdesk API
+REST API for support ticket management via WhatsApp  
+Built with Java, Spring Boot, Twilio, Docker, and documented with Swagger  
+[Repository](link) • [README](link)
 
 ## Currently studying
 
