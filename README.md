@@ -19,7 +19,7 @@ REST API for support ticket management via WhatsApp, integrating Twilio's messag
 Built with Java and Spring Boot, containerized with Docker, and fully documented with Swagger.
 
 **Stack:** Java · Spring Boot · Twilio · Docker · PostgreSQL · Swagger/OpenAPI  
-[Repository](https://github.com/marco-ricardo) <!-- update with actual link -->
+[Repository](https://github.com/tonicostmarco/helpdesk-spring-api) <!-- update with actual link -->
 
 ---
 
