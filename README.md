@@ -28,7 +28,7 @@ I am also developing skills in Linux and networking fundamentals, with interest 
 ### Helpdesk API
 REST API for support ticket management via WhatsApp  
 Built with Java, Spring Boot, Twilio, Docker, and documented with Swagger  
-[Repository]([link](https://github.com/tonicostmarco/helpdesk-spring-api)) • [README]([link](https://github.com/tonicostmarco/helpdesk-spring-api))
+[Repository]((https://github.com/tonicostmarco/helpdesk-spring-api)) • [README]((https://github.com/tonicostmarco/helpdesk-spring-api))
 
 ## Currently studying
 
