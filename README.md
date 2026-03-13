@@ -7,7 +7,7 @@
 ## About me
 
 ```java
-public class MarcoCorsta {
+public class MarcoCORSta {
 
     String[] currentFocus  = { "Java", "Spring Boot", "Clean Code" };
     String[] alsoLearning  = { "JUnit/Mockito", "Spring Security", "Networking" };
@@ -45,9 +45,9 @@ Built with Java and Spring Boot, containerized with Docker, documented with Swag
 | Topic | Status |
 |---|---|
 | Clean Code and design principles | In progress |
-| Automated testing — JUnit and Mockito | Studying |
-| Spring Security | Studying |
-| Networking fundamentals | Studying |
+| Automated testing — JUnit and Mockito | In progress |
+| Spring Security | In progress |
+| Networking fundamentals | In progress |
 
 ---
 
