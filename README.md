@@ -9,13 +9,13 @@
 ```java
 public class MarcoCORSta {
 
-    String[] currentFocus  = { "Java", "Spring Boot", "Clean Code" };
-    String[] alsoLearning  = { "JUnit/Mockito", "Spring Security", "Networking" };
-    String   background    = "Audiovisual post-producer — sharpened attention to detail";
-    String   goal          = "First developer internship (estagio)";
-    String   location      = "Brazil";
-
+    String[] currentFocus = { "Java", "Spring Boot", "Docker", "AWS" };
+    String   alsoLearning = "Networking";
+    String   background   = "Audiovisual post-producer — sharpened attention to detail";
+    String   goal         = "First developer internship (estagio)";
+    String   location     = "Brazil";
 }
+
 ```
 
 ---
@@ -31,6 +31,15 @@ Built with Java and Spring Boot, containerized with Docker, documented with Swag
 
 [View Repository](https://github.com/tonicostmarco/helpdesk-spring-api)
 
+### GitHub PR Analyzer *(upcoming)*
+Event-driven backend that ingests GitHub pull request events via webhooks,
+routes them asynchronously through RabbitMQ, and exposes PR analytics via REST API.
+Picks up where HelpDesk left off: while HelpDesk covers auth and synchronous request handling,
+this project introduces distributed messaging and async processing, the next layer of production systems.
+Planned as the next project, starting after HelpDesk's AWS deployment.
+
+**Stack:** `Java` `Spring Boot` `RabbitMQ` `Docker` `PostgreSQL` `Swagger/OpenAPI`
+
 ---
 
 ## Technologies and Tools
@@ -40,15 +49,14 @@ Built with Java and Spring Boot, containerized with Docker, documented with Swag
 ---
 
 
-## Currently studying
+## Next steps
 
 | Topic | Status |
 |---|---|
-| Clean Code and design principles | In progress |
-| Automated testing — JUnit and Mockito | In progress |
-| Spring Security | In progress |
-| Networking fundamentals | In progress |
-
+| Deploy AWS | `in_progress` |
+| Webhook Controller | `next` |
+| RabbitMQ — Exchange and Queues | `next` |
+| Consumer Service | `next` |
 ---
 
 ## Contact
