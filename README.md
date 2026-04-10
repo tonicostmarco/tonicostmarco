@@ -53,8 +53,8 @@ Planned as the next project, starting after HelpDesk's AWS deployment.
 
 | Topic | Status |
 |---|---|
+| RabbitMQ — Exchange and Queues | `in_progress` |
 | Webhook Controller | `next` |
-| RabbitMQ — Exchange and Queues | `next` |
 | Consumer Service | `next` |
 ---
 
