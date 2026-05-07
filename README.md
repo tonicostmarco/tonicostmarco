@@ -44,8 +44,7 @@ Planned as the next project, starting after HelpDesk's AWS deployment.
 
 ## Technologies and Tools
 
-[![skillicons](https://skillicons.dev/icons?i=java,spring,docker,postgresql,mongodb,git,linux,maven,postman,idea&theme=dark&perline=10)](https://skillicons.dev)
-
+[![skillicons](https://skillicons.dev/icons?i=java,spring,rabbitmq,docker,postgresql,mongodb,git,linux,maven,postman,idea&theme=dark&perline=11)](https://skillicons.dev)
 ---
 
 
