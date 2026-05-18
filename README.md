@@ -49,9 +49,8 @@ Picks up where HelpDesk left off: while HelpDesk covers synchronous request hand
 
 | Topic | Status |
 |---|---|
-| DLQ + retry policy (RabbitMQ) | `in_progress` |
-| AWS EC2 deploy | `planned` |
 | Python + LLM — PR analysis and data visualization | `in_progress` |
+| AWS EC2 deploy | `planned` |
 | TypeScript + React — frontend for PR Analyzer | `planned` |
 | AWS Cloud Practitioner | `planned` |
 | Distributed Task Queue (from scratch, Java) | `planned` |
