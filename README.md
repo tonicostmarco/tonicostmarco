@@ -1,5 +1,4 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Marco%20Costa&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineering%20Student&descSize=20&descAlignY=60&descColor=a78bfa&animation=fadeIn)
-
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Java+%7C+Spring+Boot+%7C+Docker;Back-end+Developer+in+progress;Building+things+that+work.)
 
 ---
@@ -7,15 +6,12 @@
 ## About me
 
 ```java
-public class MarcoCORSta {
-
-    String[] currentFocus = { "Java", "Spring Boot", "Docker", "AWS" };
-    String   alsoLearning = "Networking";
+public class MarcoRicardo {
+    String[] currentFocus = { "Java", "Spring Boot", "RabbitMQ", "Docker", "AWS" };
     String   background   = "Audiovisual post-producer — sharpened attention to detail";
-    String   goal         = "First developer internship (estagio)";
+    String   goal         = "First developer internship";
     String   location     = "Brazil";
 }
-
 ```
 
 ---
@@ -23,38 +19,43 @@ public class MarcoCORSta {
 ## Projects
 
 ### Helpdesk API
+REST API for support ticket management with WhatsApp notifications via Twilio.
+Custom OAuth2 Authorization Server with password grant, JWT authentication, role-based access control across four roles, and service-layer integration tests against a real H2 database.
 
-REST API for support ticket management via WhatsApp, integrating Twilio's messaging platform.
-Built with Java and Spring Boot, containerized with Docker, documented with Swagger.
-
-**Stack:** `Java` `Spring Boot` `Twilio` `Docker` `PostgreSQL` `Swagger/OpenAPI`
+**Stack:** `Java 21` `Spring Boot 3` `OAuth2 / JWT` `Twilio` `PostgreSQL` `Docker` `Swagger/OpenAPI`
 
 [View Repository](https://github.com/tonicostmarco/helpdesk-spring-api)
 
-### GitHub PR Analyzer *(upcoming)*
-Event-driven backend that ingests GitHub pull request events via webhooks,
-routes them asynchronously through RabbitMQ, and exposes PR analytics via REST API.
-Picks up where HelpDesk left off: while HelpDesk covers auth and synchronous request handling,
-this project introduces distributed messaging and async processing, the next layer of production systems.
-Planned as the next project, starting after HelpDesk's AWS deployment.
+---
 
-**Stack:** `Java` `Spring Boot` `RabbitMQ` `Docker` `PostgreSQL` `Swagger/OpenAPI`
+### GitHub PR Analyzer
+Event-driven backend that ingests GitHub pull request webhooks, validates HMAC-SHA256 signatures, routes events asynchronously through a RabbitMQ Topic Exchange, and exposes PR analytics via a REST API.
+
+Picks up where HelpDesk left off: while HelpDesk covers synchronous request handling and auth, this project adds distributed messaging, async consumers, idempotent event processing, and MongoDB aggregation pipelines.
+
+**Stack:** `Java 25` `Spring Boot 4` `RabbitMQ` `MongoDB` `Docker` `Spring Security / JWT`
+
+[View Repository](https://github.com/tonicostmarco/github-pr-analyzer)
 
 ---
 
 ## Technologies and Tools
 
 [![skillicons](https://skillicons.dev/icons?i=java,spring,rabbitmq,docker,postgresql,mongodb,git,linux,maven,postman,idea&theme=dark&perline=11)](https://skillicons.dev)
----
 
+---
 
 ## Next steps
 
 | Topic | Status |
 |---|---|
-| RabbitMQ — Exchange and Queues | `in_progress` |
-| Webhook Controller | `in_progress` |
-| Consumer Service | `in_progress` |
+| DLQ + retry policy (RabbitMQ) | `in_progress` |
+| AWS EC2 deploy | `planned` |
+| Python + LLM — PR analysis and data visualization | `in_progress` |
+| TypeScript + React — frontend for PR Analyzer | `planned` |
+| AWS Cloud Practitioner | `planned` |
+| Distributed Task Queue (from scratch, Java) | `planned` |
+
 ---
 
 ## Contact
