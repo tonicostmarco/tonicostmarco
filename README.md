@@ -35,7 +35,7 @@ Picks up where HelpDesk left off: while HelpDesk covers synchronous request hand
 
 **Stack:** `Java 25` `Spring Boot 4` `RabbitMQ` `MongoDB` `Docker` `Spring Security / JWT`
 
-[View Repository](https://github.com/tonicostmarco/github-pr-analyzer)
+[View Repository](https://github.com/tonicostmarco/githubpranalyzer)
 
 ---
 
