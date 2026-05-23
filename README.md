@@ -19,6 +19,7 @@ public class MarcoRicardo {
 ## Projects
 
 ### Helpdesk API
+
 REST API for support ticket management with WhatsApp notifications via Twilio.
 Custom OAuth2 Authorization Server with password grant, JWT authentication, role-based access control across four roles, and service-layer integration tests against a real H2 database.
 
@@ -29,13 +30,24 @@ Custom OAuth2 Authorization Server with password grant, JWT authentication, role
 ---
 
 ### GitHub PR Analyzer
-Event-driven backend that ingests GitHub pull request webhooks, validates HMAC-SHA256 signatures, routes events asynchronously through a RabbitMQ Topic Exchange, and exposes PR analytics via a REST API.
 
+Event-driven backend that ingests GitHub pull request webhooks, validates HMAC-SHA256 signatures, routes events asynchronously through a RabbitMQ Topic Exchange, and exposes PR analytics via a REST API.
 Picks up where HelpDesk left off: while HelpDesk covers synchronous request handling and auth, this project adds distributed messaging, async consumers, idempotent event processing, and MongoDB aggregation pipelines.
 
 **Stack:** `Java 25` `Spring Boot 4` `RabbitMQ` `MongoDB` `Docker` `Spring Security / JWT`
 
 [View Repository](https://github.com/tonicostmarco/githubpranalyzer)
+
+---
+
+### GitHub PR Insights
+
+AI-powered analytics layer that consumes the GitHub PR Analyzer API and uses an LLM to generate natural language insights about pull request data — summary, author metrics, and repository metrics — without manual interpretation.
+Delegates the analysis to Groq (LLaMA 3.3 70B) and exposes the result via a FastAPI endpoint secured by token delegation to the Java API.
+
+**Stack:** `Python 3.13` `FastAPI` `Groq (LLaMA 3.3 70B)` `requests` `python-dotenv`
+
+[View Repository](https://github.com/tonicostmarco/github-pr-insights)
 
 ---
 
@@ -49,10 +61,10 @@ Picks up where HelpDesk left off: while HelpDesk covers synchronous request hand
 
 | Topic | Status |
 |---|---|
-| Python + LLM — PR analysis and data visualization | `in_progress` |
-| AWS EC2 deploy | `planned` |
-| TypeScript + React — frontend for PR Analyzer | `planned` |
-| AWS Cloud Practitioner | `planned` |
+| AWS EC2 deploy | `in_progress` |
+| TypeScript + React — frontend for Portfolio | `next` |
+| AWS Cloud Practitioner | `next` |
+| Hexagonal Architecture | `planned` |
 | Distributed Task Queue (from scratch, Java) | `planned` |
 
 ---
