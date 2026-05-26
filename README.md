@@ -62,7 +62,7 @@ Delegates the analysis to Groq (LLaMA 3.3 70B) and exposes the result via a Fast
 | Topic | Status |
 |---|---|
 | AWS EC2 deploy | `in_progress` |
-| TypeScript + React — frontend for Portfolio | `next` |
+| TypeScript + React — frontend for Portfolio | `in_progress` |
 | AWS Cloud Practitioner | `next` |
 | Hexagonal Architecture | `planned` |
 | Distributed Task Queue (from scratch, Java) | `planned` |
