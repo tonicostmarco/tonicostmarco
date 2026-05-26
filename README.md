@@ -7,7 +7,7 @@
 
 ```java
 public class MarcoRicardo {
-    String[] currentFocus = { "Java", "Spring Boot", "RabbitMQ", "Docker", "AWS" };
+    String[] currentFocus = { "Java", "Spring Boot", "RabbitMQ", "Docker", "Oracle Cloud" };
     String   background   = "Audiovisual post-producer — sharpened attention to detail";
     String   goal         = "First developer internship";
     String   location     = "Brazil";
@@ -32,6 +32,7 @@ Custom OAuth2 Authorization Server with password grant, JWT authentication, role
 ### GitHub PR Analyzer
 
 Event-driven backend that ingests GitHub pull request webhooks, validates HMAC-SHA256 signatures, routes events asynchronously through a RabbitMQ Topic Exchange, and exposes PR analytics via a REST API.
+
 Picks up where HelpDesk left off: while HelpDesk covers synchronous request handling and auth, this project adds distributed messaging, async consumers, idempotent event processing, and MongoDB aggregation pipelines.
 
 **Stack:** `Java 25` `Spring Boot 4` `RabbitMQ` `MongoDB` `Docker` `Spring Security / JWT`
@@ -43,6 +44,7 @@ Picks up where HelpDesk left off: while HelpDesk covers synchronous request hand
 ### GitHub PR Insights
 
 AI-powered analytics layer that consumes the GitHub PR Analyzer API and uses an LLM to generate natural language insights about pull request data — summary, author metrics, and repository metrics — without manual interpretation.
+
 Delegates the analysis to Groq (LLaMA 3.3 70B) and exposes the result via a FastAPI endpoint secured by token delegation to the Java API.
 
 **Stack:** `Python 3.13` `FastAPI` `Groq (LLaMA 3.3 70B)` `requests` `python-dotenv`
@@ -61,7 +63,7 @@ Delegates the analysis to Groq (LLaMA 3.3 70B) and exposes the result via a Fast
 
 | Topic | Status |
 |---|---|
-| AWS EC2 deploy | `in_progress` |
+| Oracle Cloud deploy | `in_progress` |
 | TypeScript + React — frontend for Portfolio | `in_progress` |
 | AWS Cloud Practitioner | `next` |
 | Hexagonal Architecture | `planned` |
