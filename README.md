@@ -7,7 +7,7 @@
 
 ```java
 public class MarcoRicardo {
-    String[] currentFocus = { "Java", "Spring Boot", "RabbitMQ", "Docker", "Oracle Cloud" };
+    String[] currentFocus = { "Java", "Spring Boot", "RabbitMQ", "Docker", "Oracle Cloud", "AWS" };
     String   background   = "Audiovisual post-producer — sharpened attention to detail";
     String   goal         = "First developer internship";
     String   location     = "Brazil";
