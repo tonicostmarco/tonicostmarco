@@ -65,7 +65,7 @@ Delegates the analysis to Groq (LLaMA 3.3 70B) and exposes the result via a Fast
 |---|---|
 | Oracle Cloud deploy | `in_progress` |
 | TypeScript + React — frontend for Portfolio | `in_progress` |
-| AWS Cloud Practitioner | `next` |
+| AWS Cloud Practitioner | `in_progress` |
 | Hexagonal Architecture | `planned` |
 | Distributed Task Queue (from scratch, Java) | `planned` |
 
